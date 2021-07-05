@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  margin-left: 14%;
+}
+.container {
+  margin: auto;
+}
+.row::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.half-width {
+  width: 43%;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 17%;
+  margin-left: 0;
+}
+
+.half-width h6 {
+  font-size: 30px;
+  margin: 0;
+  color: rgb(153, 151, 151);
+  font-weight: 100;
+}
+.half-width .heading6 {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 80px;
+  font-weight: 900;
+  margin: 0;
+}
+h2 span {
+  color: rgb(235, 115, 18);
+}
+.another {
+  margin-top: 20%;
+  color: dimgray;
+}
+.half-width .heading {
+  margin-bottom: 80px;
+}
+.half-width a {
+  background-image: linear-gradient(rgb(230, 135, 11), rgb(241, 49, 49));
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 30px;
+}
+#about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url(image/3.png);
+  background-repeat: no-repeat;
+}
+#about .half-width {
+  width: 50%;
+}
+#about .half-width h1 {
+  font-size: 50px;
+  color: dimgray;
+  margin-top: 100px;
+}
+#about .half-width img {
+  width: 100%;
+  padding-right: 100px;
+}
+#about .half-width p {
+  text-align: left;
+  overflow: auto;
+  font-size: 25px;
+  color: rgb(37, 35, 35);
+  padding-right: 300px;
+  margin-bottom: 70px;
+}
+#about .half-width a {
+  background-image: linear-gradient(rgb(230, 135, 11), rgb(241, 49, 49));
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 30px;
+}
+
+#recipe h1 {
+  text-align: center;
+  font-size: 50px;
+  color: dimgray;
+}
+
+#recipe p {
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+  padding: 0 365px;
+}
+
+#recipe .recipe-title {
+  width: 28%;
+  padding: 20px 20px;
+  box-shadow: 2px 3px 30px rgb(197, 194, 194);
+  border-radius: 20px;
+  float: left;
+  margin: 30px 30px;
+}
+#recipe .recipe-title img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#recipe .recipe-title h2 {
+  font-size: 45px;
+  margin-top: 19px 40px;
+}
+#recipe .recipe-title p {
+  text-align: left;
+  padding: 0 30px 0 0;
+  color: gray;
+}
+
+#counter {
+  margin: 100px 0;
+}
+
+#counter .count {
+  float: left;
+  width: 33.33%;
+  padding: 20px 30px;
+  text-align: center;
+}
+#counter .count h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+#counter .count p {
+  font-size: 20px;
+  color: gray;
+}
+#counter .box {
+  box-shadow: 2px 3px 30px rgb(197, 194, 194);
+  margin: 10px 70px;
+  border-radius: 20px;
+  height: 250px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  height: 300px;
+}
+.footer h1 {
+  font-size: 40px;
+  padding-top: 45px;
+}
+.footer span {
+  color: rgb(224, 116, 97);
+}
+
+.footer .net {
+  color: gray;
+}
+.footer p {
+  color: lightsteelblue;
+  background-color: black;
+  font-size: 20px;
+}
