@@ -25,13 +25,13 @@ body {
 }
 
 #nav .logo {
-  display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 12rem;
   font-size: 1.25rem;
   float: left;
 }
+
 #nav .logo img {
   width: 250px;
 }
@@ -196,24 +196,45 @@ h2 span {
   height: 250px;
 }
 
-.footer {
-  background-color: black;
-  text-align: center;
-  height: 300px;
+#foot .footer h1 {
+  font-size: 30px;
+  padding-top: 40px;
 }
-.footer h1 {
-  font-size: 40px;
-  padding-top: 45px;
-}
-.footer span {
+#foot .footer span {
   color: rgb(224, 116, 97);
 }
 
-.footer .net {
+#foot .footer .net {
   color: gray;
 }
-.footer p {
+#foot .footer .footer-half p {
   color: lightsteelblue;
-  background-color: black;
   font-size: 20px;
+}
+#foot .footer .footer-half .note {
+  font-size: 20px;
+  color: rgb(155, 157, 160);
+  margin-right: 160px;
+  margin-bottom: 50px;
+}
+
+#foot {
+  background-color: rgb(43, 39, 39);
+}
+#foot .footer .footer-half {
+  float: left;
+  width: 50%;
+}
+#foot .footer .footer-half img {
+  width: 300px;
+  border-radius: 20px;
+  margin: 50px 60px 50px 300px;
+}
+#foot input {
+  padding: 12px 20px;
+}
+#go {
+  background-image: linear-gradient(rgb(230, 135, 11), rgb(241, 49, 49));
+  color: white;
+  font-weight: bold;
 }
