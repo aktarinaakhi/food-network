@@ -195,32 +195,18 @@ h2 span {
   border-radius: 20px;
   height: 250px;
 }
-
-#foot .footer h1 {
-  font-size: 30px;
-  padding-top: 40px;
-}
-#foot .footer span {
-  color: rgb(224, 116, 97);
+#foot {
+  background-image: url(image/7.jpg);
+  background-repeat: no-repeat;
 }
 
-#foot .footer .net {
-  color: gray;
-}
-#foot .footer .footer-half p {
-  color: lightsteelblue;
-  font-size: 20px;
-}
 #foot .footer .footer-half .note {
   font-size: 20px;
-  color: rgb(155, 157, 160);
+  color: rgb(70, 69, 69);
   margin-right: 160px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-#foot {
-  background-color: rgb(43, 39, 39);
-}
 #foot .footer .footer-half {
   float: left;
   width: 50%;
@@ -230,11 +216,37 @@ h2 span {
   border-radius: 20px;
   margin: 50px 60px 50px 300px;
 }
-#foot input {
-  padding: 12px 20px;
+#foot .input {
+  padding: 12px 140px;
+  margin-bottom: 10px;
 }
+#foot .btn {
+  padding: 12px 30px;
+  border-radius: 10px;
+}
+
 #go {
   background-image: linear-gradient(rgb(230, 135, 11), rgb(241, 49, 49));
   color: white;
   font-weight: bold;
+}
+#last h1 {
+  font-size: 40px;
+  padding-top: 40px;
+}
+#last span {
+  color: rgb(224, 116, 97);
+}
+
+#last .net {
+  color: gray;
+}
+#last p {
+  color: lightsteelblue;
+  font-size: 20px;
+}
+#last {
+  background-color: rgb(43, 39, 39);
+  text-align: center;
+  height: 200px;
 }
