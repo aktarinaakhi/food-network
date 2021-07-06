@@ -203,8 +203,7 @@ h2 span {
 #foot .footer .footer-half .note {
   font-size: 20px;
   color: rgb(70, 69, 69);
-  margin-right: 160px;
-  margin-bottom: 40px;
+  margin: 45px 160px 40px 0;
 }
 
 #foot .footer .footer-half {
